@@ -1,0 +1,60 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'Raleway';
+}
+
+.project-title {
+  text-align: center;
+  font-size: 30px;
+  padding: 2rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+.project {
+  margin: 2rem;
+  height: auto;
+  background-color: white;
+  color: #999999;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  border-radius: 0.25rem;
+  max-width: 25rem;
+
+}
+
+/*not working*/
+.project:hover {
+  img{
+    filter: contrast(100%);
+  }
+}
+
+.card-img{
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.card-content{
+  padding: 1rem;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card-info{
+
+}
+
+img{
+
+}
+
